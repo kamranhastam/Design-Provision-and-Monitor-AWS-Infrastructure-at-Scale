@@ -7,8 +7,8 @@
 # TODO: provision 2 m4.large EC2 instances named Udacity M4
 
 provider "aws" {
-  access_key = "AKIAZSF67FY2ORICPYWM"
-  secret_key = "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"
+  access_key = "xxxx"
+  secret_key = "xxxx"
   region = "us-east-1"
 }
 
