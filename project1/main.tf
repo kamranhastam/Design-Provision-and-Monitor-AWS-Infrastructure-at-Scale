@@ -16,11 +16,17 @@ resource "aws_instance" "UdacityT2" {
   count = "4"
   ami = "ami-0d5eff06f840b45e9"
   instance_type = "t2.micro"
+  tags = {
+    Name = "UdacityT2"
+  }
 }
 
 resource "aws_instance" "UdacityM4" {   
   count = "2"
   ami = "ami-0d5eff06f840b45e9"
   instance_type = "m4.large"
+  tags = {
+    Name = "UdacityM4"
+  }
 }
 
